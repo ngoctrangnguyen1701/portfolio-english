@@ -9,6 +9,8 @@
 
 body {
   font-family: "Space Mono", monospace;
+  color: #4d4d4d;
+  margin-bottom: 1rem;
 }
 
 body a {
@@ -143,7 +145,7 @@ header .header__name span {
 }
 
 .work span {
-  color: black;
+  color: #4d4d4d;
 }
 
 .work__line {
@@ -257,8 +259,7 @@ header .header__name span {
   display: block;
   width: 250px;
   height: 50px;
-  color: black;
-  font-weight: bold;
+  color: #4d4d4d;
   font-size: 20px;
   text-align: center;
   line-height: 50px;
@@ -274,6 +275,18 @@ header .header__name span {
   transition: 0.5s;
 }
 
+footer span {
+  text-align: center;
+  color: #bfbfbf;
+  font-size: 22px;
+  display: block;
+  margin-bottom: 50px;
+}
+
+footer a {
+  color: #4d4d4d;
+}
+
 #btn-back-to-top {
   display: inline-block;
   background-color: #FF9800;
@@ -285,8 +298,7 @@ header .header__name span {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  transition: background-color .3s, 
- opacity .5s, visibility .5s;
+  transition: background-color .3s,  opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
